@@ -30,7 +30,7 @@ app.use('/api/logs',logs);
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
-const PORT =process.env.PORT||3000;
+const PORT =process.env.PORT||3001;
 
 app.listen(PORT,()=>{console.log(`Server is running on PORT ${PORT}`)})
 
